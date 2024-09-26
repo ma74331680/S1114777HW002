@@ -6,7 +6,7 @@ class Program
     {
         Random random = new Random();
 
-        int maxValue = 99;
+        int maxValue = 80;
         int minValue = 1;
         int guessNum;
         int randNum = random.Next(minValue, maxValue);
